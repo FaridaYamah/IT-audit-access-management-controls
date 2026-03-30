@@ -1,28 +1,34 @@
-# IT-Audit-Portfolio.md
+# IT Audit project: Access Management & Change Controls Review
+
 IT Audit Portfolio - Access Management & Change Controls
 
 ## 👩🏽‍💻 Author
 
-**Farida Yamah (Lulu)** 
+**Farida Yamah
 Data Analyst → IT Audit & GRC 
 
 🔗 [View My LinkedIn Profile](https://www.linkedin.com/in/farida-yamah-97a29123b)
 
-
- **Looking for a GRC Analyst or IT Auditor with real- world control testing experience? View my project below or download the files below**
  
-
- This portfolio showcases a simulated ITGC audit project focused on evaluating **User Access Provisioning**, **Modifications**, **Terminations**, and **Change Management Controls** within a critical ERP environment. The audit was performed in alignment with SOX and IIA standards.
+ This project simulates an IT General Controls (ITGC) audit of Access Management and Change Management within a critical ERP environment. focusing on identifying control deficiencies, assessing risk exposure, and recommending remediation actions.
 
 ---
 
 ## 🔍 Executive Summary
 
 - ✅ 12 ITGC controls tested across User Provisioning, Modifications, and Terminations
-- ✅ 60% reduction in emergency change deployments
-- ✅ 99% role-to-access alignment achieved
-- ❌ Identified control gaps: missing approvals, late terminations, improper role assignments
-- 🛠️ Artifacts include full RCM, audit report, testing workbook, and risk matrix
+- ✅ Achieved 99% role-to-access alignment
+- ✅ Reduced emergency change deployments by 60%
+- ❌ Identified control deficiencies
+    -  missing approvals
+    -  Delayed user termination
+    -  inappropriate
+    -   role assignments
+- 🛠️ Supporting artifacts include
+      - Risk & Control Matrix (RCM)
+      - Audit report
+      - Testing workbook
+      - Risk Heatmap
 
 ---
 
@@ -43,30 +49,41 @@ Ensure access is granted, modified, and removed in accordance with the organizat
 
 ## 🧪 Methodology
 
-- Performed walkthrough with process owner and documented key risks
-- Reviewed Access Management Policy and provisioning workflow
-- Selected a **10% sample** of ERP users for provisioning/modification/termination testing
-- Performed **Test of Design (TOD)** and **Test of Operating Effectiveness (TOE)** on 12 key controls
-- Evaluated evidence including ticketing system logs, approval emails, HR data, and AD snapshots
+- Conducted walkthrough with process owners to understand control design
+- Reviewed Access Management Policies and provisioning workflows
+- Selected a sample of users for testing provisioning, modification, and termination controls
+- Performed: 
+    -Test of Design (TOD) 
+     -Test of Operating Effectiveness (TOE)
+- Inspected audit evidence including:
+  - Approval emails
+  - Ticketing system logs
+  - HR termination records
+  - Active Directory extracts
 
 ---
 
 ## 🚨 Key Findings
 
-1. ❌ **Missing Approval Emails**  
+1. ❌ **Missing Approval Evidence**  
    - **Risk Rating:** High  
-   - **Fix:** Ensure all provisioning requests are backed by documented manager approvals.
+   - **Impact:** Unauthorized access may be granted without proper management oversight
+   - **Recommendation:** Enforce mandatory approval workflows before provisioning access
 
 2. ❌ **Late Terminations**  
    - **Risk Rating:** High  
-   - **Fix:** Automate HR-IT sync for timely access removal within 24 hours.
+   - **Impact:** Delayed removal of system access for terminated employees increases the risk of unauthorized access and potential data misuse.
+   - **Recommendation** Implement automated HR-IT integration to ensure user access is revoked within 24 Hours of termination.
 
 3. ❌ **Incorrect Role Assignments**  
    - **Risk Rating:** Medium  
-   - **Fix:** Validate user roles against job functions and role matrix.
+   - **Impact:** Misaligned user roles may result in excessive access privilieges, increasing the risk of segregation of duties (SOD) conflicts and unauthorized activities.
+   - **Recommendation** Enforce role-based access controls (RBAC) and validate user access against approval job functions and role matrices.
 
 4. ✅ **Change Requests Fully Approved and Documented**  
-   - **Risk Rating:** Low (well-controlled)
+   - **Risk Rating:** Low (Effective Control)
+   - **Observation** All sampled change requests were properly approved and supported with adequate documentation.
+   - **Conclusion** Control is operating effectively with no exceptions noted.
 
 ---
 
@@ -74,18 +91,17 @@ Ensure access is granted, modified, and removed in accordance with the organizat
 
 | File | Description |
 |------|-------------|
-| 📄 `Access Management Audit Report.docx` | Final audit report detailing objectives, scope, and findings |
-| 📊 `Access Management RCM.xlsx` | Risk & Control Matrix with risks, controls, and test details |
-| 📈 `Risk Matrix.pdf` | Heatmap with control severity and remediation guidance |
-| 🧪 `Test Workbook.xlsx` | Evidence testing results, pass/fail, exceptions |
+| 📄 `Access Management Audit Report.docx` | Final audit report summarizing findings and recommendations |
+| 📊 `Access Management RCM.xlsx` | Risk & Control Matrix mapping risks to controls and test procedures |
+| 📈 `Risk Matrix.pdf` | Risk heatmap showing severity and prioritization |
+| 🧪 `Test Workbook.xlsx` | Detailed testing results (pass/fail with evidence) |
 | 📁 `Evidence/` | (Optional) Sample redacted tickets, approvals, HR exports |
 
 ## 👩‍💻 About the Auditor
 
-Hi, I'm **Farida Yamah** — transitioning from Data Analytics into IT Audit & GRC. I bring hands-on experience in Power BI, Excel, SQL, and Snowflake, which I now apply to access governance, control design, and evidence testing.
+Hi, I'm **Farida Yamah** — a Data Analyst transitioning into IT Audit & GRC. I leverage data analytics to perform control testing, identify risks, and support audit conclusions aligned with SOX and internal control frameworks. 
 
 📫 [LinkedIn](https://www.linkedin.com/in/farida-yamah-97a29123b) 
 
 ---
 
-*Built with ❤️ for recruiters and control owners who value clarity, evidence, and real-world thinking.*

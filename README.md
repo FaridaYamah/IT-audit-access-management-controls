@@ -5,7 +5,7 @@ IT Audit Portfolio - Access Management & Change Controls
 ## 👩🏽‍💻 Author
 
 **Farida Yamah
-Data Analyst → IT Audit & GRC 
+Internal Auditor / Data Analytics
 
 🔗 [View My LinkedIn Profile](https://www.linkedin.com/in/farida-yamah-97a29123b)
 
